@@ -1,0 +1,42 @@
+{
+  "name": "alfred-filter",
+  "description": "CLI for parsing JSON to Alfred's XML Filter",
+  "version": "0.1.0",
+  "homepage": "https://github.com/lukekarrys/alfred-filter",
+  "author": {
+    "name": "Luke Karrys",
+    "email": "lukekarrys@gmail.com",
+    "url": "http://lukekarrys.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lukekarrys/alfred-filter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lukekarrys/alfred-filter/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/lukekarrys/alfred-filter/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/alfred-filter",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "alfred-filter": "./lib/alfred-filter.js"
+  },
+  "scripts": {},
+  "dependencies": {
+    "commander": "~2.0.0",
+    "underscore": "~1.5.1",
+    "jsontoxml": "0.0.11"
+  },
+  "devDependencies": {
+    "precommit-hook": "~0.3.5"
+  },
+  "keywords": []
+}
