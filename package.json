@@ -1,7 +1,7 @@
 {
   "name": "alfred-filter",
   "description": "CLI for parsing JSON to Alfred's XML Filter",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "homepage": "https://github.com/lukekarrys/alfred-filter",
   "author": {
     "name": "Luke Karrys",
