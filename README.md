@@ -1,5 +1,7 @@
 # alfred-filter
 
+[![NPM](https://nodei.co/npm/alfred-filter.png)](https://nodei.co/npm/alfred-filter/)
+
 CLI for parsing JSON to Alfred's XML Filter
 
 ## Getting Started
